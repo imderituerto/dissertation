@@ -1,0 +1,8 @@
+lm.monthly.1969 <- lm(X1969$`Monthly gold returns`~X1969$`Monthly SP500 returns`)
+lm.monthly.1973 <- lm(X1973$`Monthly gold returns`~X1973$`Monthly SP500 returns`)
+lm.monthly.1980 <- lm(X1980$`Monthly gold returns`~X1980$`Monthly SP500 returns`)
+lm.monthly.1981 <- lm(X1981$`Monthly gold returns`~X1981$`Monthly SP500 returns`)
+lm.monthly.1990 <- lm(X1990$`Monthly gold returns`~X1990$`Monthly SP500 returns`)
+lm.monthly.2001 <- lm(X2001$`Monthly gold returns`~X2001$`Monthly SP500 returns`)
+lm.monthly.2007 <- lm(X2007$`Monthly gold returns`~X2007$`Monthly SP500 returns`)
+lm.monthly.2020 <- lm(X2020$`Monthly gold returns`~X2020$`Monthly SP500 returns`)

@@ -1,0 +1,122 @@
+
+{
+	"commands" : null,
+	"description" : "Generated right after last save",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\me\\documents\\birkbeck\\gde\\applied statistics & econometrics (30 credits)\\project ideas\\workfile.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 737535.8335416666, "04/21/2020 20:00" ],
+				"_name" : "Untitled",
+				"_obj_count" : 18,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737534.0, "04/20/2020" ],
+						"_obs_min" : [ 737069.0, "01/11/2019" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DCOILWTICO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EQ01",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LG_DOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LG_GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LG_NASDAQ",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LG_OIL",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LG_SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LN_DOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LN_GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LN_NASDAQ",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LN_OIL",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LN_SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "NASDAQ",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 332
+			}
+		]
+	}
+}

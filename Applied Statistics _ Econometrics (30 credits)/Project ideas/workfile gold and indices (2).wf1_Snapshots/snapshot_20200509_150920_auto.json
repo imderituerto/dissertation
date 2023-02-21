@@ -1,0 +1,126 @@
+
+{
+	"commands" : 
+	[
+		"delete gold_2019 ",
+		"delete gold_2019_ln ",
+		"close SP500",
+		"import \"C:\\Users\\Me\\Documents\\Birkbeck\\GDE\\Applied Statistics & Econometrics (30 credits)\\Project ideas\\gold 2010.xlsx\" range=Hoja1 colhead=0 na=\"#N/A\" @freq D5 @id @date(series01) @destid @date @smpl @all",
+		"SERIES02.rename gold_2010",
+		"{%graph}.line",
+		"gold2010_log_growth.sheet"
+	],
+	"description" : "Generated based on timer.",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\me\\documents\\birkbeck\\gde\\applied statistics & econometrics (30 credits)\\project ideas\\workfile gold and indices (2).wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 737553.6311921297, "05/09/2020 15:08" ],
+				"_name" : "Untitled",
+				"_obj_count" : 17,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737545.0, "05/01/2020" ],
+						"_obs_min" : [ 718522.0, "04/01/1968" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DOW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DOW_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DOW_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD2010_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_2010",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_2010_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "NASDAQ",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "NASDAQ_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "NASDAQ_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LOG_GROWTH",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 13590
+			}
+		]
+	}
+}

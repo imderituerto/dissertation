@@ -1,0 +1,306 @@
+
+{
+	"commands" : 
+	[
+		"{%equation}.ls gold_dif c sp500_dif",
+		"{%equation}.makeresids resid01",
+		"delete resid01 ",
+		"{%equation}.ls gold_dlog c sp500_dlog",
+		"{%equation}.makeresids resid01_dlog",
+		"delete resid01_dlog ",
+		"close Untitled",
+		"pagecreate d5 2/01/2019 5/01/2020",
+		"copy \"GOLD 1ST DIFFERENCE DLOG::Untitled\\GOLD\" *",
+		"wfselect \"GOLD 1ST DIFFERENCE DLOG\"",
+		"pagecreate d5 1/01/1968 5/01/2020",
+		"copy \"GOLD 1ST DIFFERENCE DLOG::Untitled\\GOLD\" *",
+		"close GOLD",
+		"pagestruct(start=4/01/1968\t)"
+	],
+	"description" : "Generated based on timer.",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\me\\documents\\birkbeck\\gde\\applied statistics & econometrics (30 credits)\\project ideas\\gold 1st difference.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 737555.4630092593, "05/11/2020 11:06" ],
+				"_name" : "Untitled",
+				"_obj_count" : 25,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737545.0, "05/01/2020" ],
+						"_obs_min" : [ 737090.0, "02/01/2019" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_DIF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LOG_GROWTH_1DIF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID004_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID01_DIF_LOGS",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID02_DIF_ONLY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID03_LOGS_ONLY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID04_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_DIF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LN",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LOG_GROWTH_1DIF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_VS_RESIDUALS",
+						"_type" : "GRAPH"
+					},
+					
+					{
+						"_name" : "VIX",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VIX_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VIX_LOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VIX_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "VIX_LOG_GROWTH_DIF",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 326
+			},
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 737554.8660763889, "05/10/2020 20:47" ],
+				"_name" : "Untitled1",
+				"_obj_count" : 9,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737545.0, "05/01/2020" ],
+						"_obs_min" : [ 737090.0, "02/01/2019" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_LOG_GROWTH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_LOG_GROWTH",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 326
+			},
+			
+			{
+				"_frequency" : "D5",
+				"_last_update" : [ 737555.4640856482, "05/11/2020 11:08" ],
+				"_name" : "Untitled2",
+				"_obj_count" : 10,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 737545.0, "05/01/2020" ],
+						"_obs_min" : [ 718522.0, "04/01/1968" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "GOLD",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GOLD_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "R",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID01",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SP500_DLOG",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "TABLE01",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "TABLE02",
+						"_type" : "TABLE"
+					}
+				],
+				"_obs_count" : 13590
+			}
+		]
+	}
+}
